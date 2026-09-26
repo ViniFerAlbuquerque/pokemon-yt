@@ -16,15 +16,14 @@ export const Input = ({ onHandleSearch }: InputProps) => {
     justify-center
     w-full
      ">
-        <div className="bg-white flex h-14 w-full md:w-1/2 justify-center items-center" >
+        <div className="bg-white flex h-14 w-full md:w-1/2 justify-center items-center rounded-md p-3" >
             <input 
                 type="text" 
                 onChange={(event) => setPokemon(event.target.value)}
                 value={pokemon}
                 className="w-full h-full outline-none"
-                placeholder=" → Bucar Pokémon!"
-                rounded-md
-                
+                placeholder=" Buscar Pokémon!"
+                 
             />
             <button
                 aria-label="Botão de busca"

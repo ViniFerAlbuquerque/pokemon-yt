@@ -8,7 +8,7 @@ export const Header: React.FC<PropsWithChildren<HeaderProps>> = ({ children, tit
     return (
         <header className="bg-blue-600 w-full h-32 md:h-[100px] rounded-sm relative">
             <div className="flex justify-between md:items-center w-full">
-                <h1 className="text-white font-semibold m-5 text-2xl">{title}</h1>
+                <h1 className="text-white font-semibold m-5 text-2xl rounded-sm">{title}</h1>
                 <img
                     src="/images/pokeball.png"
                     aria-label="pokeball ícone"
